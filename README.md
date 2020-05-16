@@ -25,7 +25,7 @@ o Calculation for finding the occurrence of the word ‘Canada’ in every news 
 o Calculation and printing the news article, which has highest relative frequency<br/>
 • Output: The script creates a html file which shows the output in a tabular format. File name semantic_analysis_output.html file (The output has been stored in a html file for better readability).<br/>
 
-<img src="https://github.com/uanthwal/sentiment-semantic-analyzer/Tableau_Dashboard.PNG"/>
+<img src="https://github.com/uanthwal/sentiment-semantic-analyzer/blob/master/Tableau_Dashboard.PNG"/>
 
 ## References:
 [1] Datawarehouse Assignment, “Assignment 2” in Brightspace, [online portal], 06 November 2019. Available: brightspace.com Reference Online, https://dal.brightspace.com/d2l/lms/dropbox/user/folders_history.d2l?db=62303&grpid=0&isprv =0&bp=0&ou=100142 [Accessed: November 30, 2019].<br/>
