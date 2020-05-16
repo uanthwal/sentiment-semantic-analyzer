@@ -1,4 +1,5 @@
 # sentiment-semantic-analyzer
+This particular project analyzes twitter and news data collected using twitter's Tweepy API. The data is further cleaned and processed. Sentiment and Semantic Analysis is carried out for the processed data as a part of this project.
 
 ## 1. Sentiment Analysis:
 • Source code script name: sentiment_analysis.py<br/>
@@ -8,7 +9,8 @@ o The data from above named file is cleaned by removing the special characters, 
 o Bag of tweets is created for each tweet present in the json file mentioned above.<br/>
 o List of positive [2] and negative [3] words is fetched from internet. o For each tweet, comparison is done against the positive and negative words list fetched in previous step and further a final object is created that contains below information for every tweet:<br/>
 ▪ tweet message<br/>
-▪ list of positive words (if any) ▪ list of negative words (if any)<br/>
+▪ list of positive words (if any)<br/>
+▪ list of negative words (if any)<br/>
 o A file (most_occurring_keywords.csv) that contains list of words with their count is prepared for creating the word cloud using Tableau [4].<br/>
 • Output: The script creates a html file which shows the polarity of every tweet in a tabular format. File name sentiment_analysis_output.html file (The output has been stored in a html file for better readability).<br/><br/>
 
@@ -23,6 +25,7 @@ o Calculation for finding the occurrence of the word ‘Canada’ in every news 
 o Calculation and printing the news article, which has highest relative frequency<br/>
 • Output: The script creates a html file which shows the output in a tabular format. File name semantic_analysis_output.html file (The output has been stored in a html file for better readability).<br/>
 
+<img src="https://github.com/uanthwal/sentiment-semantic-analyzer/Tableau_Dashboard.PNG"/>
 
 ## References:
 [1] Datawarehouse Assignment, “Assignment 2” in Brightspace, [online portal], 06 November 2019. Available: brightspace.com Reference Online, https://dal.brightspace.com/d2l/lms/dropbox/user/folders_history.d2l?db=62303&grpid=0&isprv =0&bp=0&ou=100142 [Accessed: November 30, 2019].<br/>
