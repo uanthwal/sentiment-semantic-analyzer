@@ -23,7 +23,7 @@ o Data cleaning is done as in Assignment 2 [1], since the raw data is used for t
 o Computation of TF-IDF (term frequency – inverse document frequency) is carried out.<br/>
 o Calculation for finding the occurrence of the word ‘Canada’ in every news article is carried out.<br/>
 o Calculation and printing the news article, which has highest relative frequency<br/>
-• Output: The script creates a html file which shows the output in a tabular format. File name semantic_analysis_output.html file (The output has been stored in a html file for better readability).<br/>
+• Output: The script creates a html file which shows the output in a tabular format. File name semantic_analysis_output.html file (The output has been stored in a html file for better readability, it is not included the source code).<br/>
 
 <img src="https://github.com/uanthwal/sentiment-semantic-analyzer/blob/master/Tableau_Dashboard.PNG"/>
 
